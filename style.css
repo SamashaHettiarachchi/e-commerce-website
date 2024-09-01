@@ -1,0 +1,51 @@
+body { 
+    background-image: url('https://wallpaper.dog/large/17279104.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 18, 1); 
+    color: white;
+     
+   
+    } 
+    .container { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    } 
+    
+    form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    } 
+    label { 
+    display: block; 
+    margin-bottom: 5px; 
+    } 
+    
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    } 
+    input[type="submit"] { 
+    background-color: rgb(188, 18, 18); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    
+    input[type="submit"]:hover { 
+    background-color:black; 
+    }
+
+   
+    
